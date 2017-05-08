@@ -1,0 +1,46 @@
+{
+	"name": "whiteboard",
+	"displayName": "Whiteboard",
+	"description": "A sleek, black and white color theme.",
+	"version": "0.1.0",
+	"publisher": "hacknightly",
+	"author": {
+		"name": "Darrell Banks"
+	},
+	"homepage": "https://github.com/hacknightly/whiteboard",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hacknightly/whiteboard"
+	},
+	"bugs": {
+		"url": "https://github.com/hacknightly/whiteboard/issues"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"galleryBanner": {
+		"color": "#FFFFFF",
+		"theme": "light"
+	},
+	"markdown": "github",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"clean",
+		"elegant",
+		"white",
+		"black"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Whiteboard",
+				"uiTheme": "vs-light",
+				"path": "./themes/whiteboard.json"
+			}
+		]
+	},
+	"devDependencies": {}
+}
